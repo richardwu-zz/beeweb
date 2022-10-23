@@ -7,8 +7,8 @@ module.exports = defineConfig({
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production' ? '/beeweb/' : '/'
   chainWebpack: config => {
-        config.module.rules.delete('eslint');
-    }
-}
+    config.module.rules.delete('eslint');
+  }
+};
 
 
